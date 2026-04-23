@@ -49,7 +49,7 @@ const About = () => {
                                     transition={{ delay: 0.2 }}
                                     className='img-fluid rounded w-75' 
                                     style={{ marginTop: "17%" }} 
-                                    src="/restaurante/images/chef2.webp" 
+                                    src="/restaurante/images/img2.avif" 
                                     alt="img2" 
                                 />
                             </div>
