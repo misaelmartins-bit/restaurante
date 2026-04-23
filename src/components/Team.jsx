@@ -23,25 +23,25 @@ const Team = () => {
             id: 1,
             name: "Marcus Volpi",
             role: "Chef Executivo",
-            img: "src/assets/chef1.avif"
+            img: "src/public/images/chef1.avif"
         },
         {
             id: 2,
             name: "Elena Santoro",
             role: "Chef de Cuisine",
-            img: "src/assets/chef2.webp"
+            img: "src/public/images/chef2.webp"
         },
         {
             id: 3,
             name: "Ricardo Lemos",
             role: "Sous Chef",
-            img: "src/assets/chef3.jpg"
+            img: "src/public/images/chef3.jpg"
         },
         {
             id: 4,
             name: "Sofia Valente",
             role: "Chef Pâtissier",
-            img: "src/assets/chef4.avif"
+            img: "src/public/images/chef4.avif"
         },
     ];
 
