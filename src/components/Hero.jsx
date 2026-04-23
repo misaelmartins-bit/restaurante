@@ -30,7 +30,7 @@ const Hero = () => {
                         </motion.a>
                     </div>
                     <div className="col-lg-6 text-center text-lg-end overflow-hidden">
-                        <motion.img src="public\images\patroComidaHero.png" width="500px" className="img-fluid" alt="imagem"
+                        <motion.img src="/images/patroComidaHero.png" width="500px" className="img-fluid" alt="imagem"
                         initial={{ opacity: 0, scale: 0.8 }} // Começa transparente e menor
                             animate={{ opacity: 1, scale: 1 }}    // Fica visível e tamanho normal
                             transition={{ 

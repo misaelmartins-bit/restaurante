@@ -36,7 +36,7 @@ const About = () => {
                                     whileInView="visible"
                                     viewport={{ once: false, amount: 0.3 }}
                                     className='img-fluid rounded w-100' 
-                                    src="public\images\restau.webp" 
+                                    src="/images/restau.webp" 
                                     alt="img" 
                                 />
                             </div>
@@ -49,7 +49,7 @@ const About = () => {
                                     transition={{ delay: 0.2 }}
                                     className='img-fluid rounded w-75' 
                                     style={{ marginTop: "17%" }} 
-                                    src="public\images\chef2.webp" 
+                                    src="/images/chef2.webp" 
                                     alt="img2" 
                                 />
                             </div>
@@ -61,7 +61,7 @@ const About = () => {
                                     viewport={{ once: false, amount: 0.3 }}
                                     transition={{ delay: 0.3 }}
                                     className='img-fluid rounded w-75' 
-                                    src="public\images\img3.avif" 
+                                    src="/images/img3.avif" 
                                     alt="img3" 
                                 />
                             </div>
@@ -73,7 +73,7 @@ const About = () => {
                                     viewport={{ once: false, amount: 0.3 }}
                                     transition={{ delay: 0.4 }}
                                     className='img-fluid rounded w-100' 
-                                    src="public\images\img4.jpg" 
+                                    src="/images/img4.jpg" 
                                     alt="img4" 
                                 />
                             </div>

@@ -31,28 +31,28 @@ const Menu = () => {
 
     const menuData = {
         Entradas: [
-            { name: "Bruschetta Toscana", price: "R$ 45", img: "public/images/comida4.jpg", desc: "Pão artesanal tostado, tomates cereja marinados em ervas e manjericão fresco." },
-            { name: "Tartare de Atum", price: "R$ 85", img: "public/images/comida6.jpg", desc: "Atum fresco picado na faca, acompanhado de avocado, ovas e chips de raiz." },
-            { name: "Carpaccio de Filé", price: "R$ 58", img: "public/images/comida7.jpg", desc: "Lâminas de filé mignon, alcaparras, parmesão curado e molho de mostarda em grãos." },
-            { name: "Camarões ao Alho", price: "R$ 92", img: "public/images/comida8.jpg", desc: "Camarões rosa salteados no azeite extravirgem, alho laminado e pimenta dedo-de-moça." },
-            { name: "Burrata Cremosa", price: "R$ 74", img: "public/images/comida9.jpg", desc: "Burrata fresca com pesto de pistache, tomates confitados e rúcula selvagem." },
-            { name: "Ceviche Clássico", price: "R$ 62", img: "public/images/comida10.jpg", desc: "Peixe branco marinado no leite de tigre, cebola roxa, coentro e batata doce." }
+            { name: "Bruschetta Toscana", price: "R$ 45", img: "/images/comida4.jpg", desc: "Pão artesanal tostado, tomates cereja marinados em ervas e manjericão fresco." },
+            { name: "Tartare de Atum", price: "R$ 85", img: "/images/comida6.jpg", desc: "Atum fresco picado na faca, acompanhado de avocado, ovas e chips de raiz." },
+            { name: "Carpaccio de Filé", price: "R$ 58", img: "/images/comida7.jpg", desc: "Lâminas de filé mignon, alcaparras, parmesão curado e molho de mostarda em grãos." },
+            { name: "Camarões ao Alho", price: "R$ 92", img: "/images/comida8.jpg", desc: "Camarões rosa salteados no azeite extravirgem, alho laminado e pimenta dedo-de-moça." },
+            { name: "Burrata Cremosa", price: "R$ 74", img: "/images/comida9.jpg", desc: "Burrata fresca com pesto de pistache, tomates confitados e rúcula selvagem." },
+            { name: "Ceviche Clássico", price: "R$ 62", img: "/images/comida10.jpg", desc: "Peixe branco marinado no leite de tigre, cebola roxa, coentro e batata doce." }
         ],
         Principais: [
-            { name: "Risoto de Cogumelos", price: "R$ 78", img: "public/images/comida1.webp", desc: "Arroz arbóreo, mix de cogumelos e azeite de trufas." },
-            { name: "Salmão Grelhado", price: "R$ 92", img: "public/images/comida2.jpg", desc: "Filé de salmão com crosta de ervas e purê de mandioquinha." },
-            { name: "Filé Mignon ao Malbec", price: "R$ 115", img: "public/images/comida3.webp", desc: "Redução de vinho Malbec e risoto de parmesão." },
-            { name: "Nhoque de Abóbora", price: "R$ 65", img: "public/images/comida5.jpg", desc: "Massa artesanal com manteiga de sálvia e nozes." },
-            { name: "Cordeiro com Ervas", price: "R$ 128", img: "public/images/comida11.jpg", desc: "Carré de cordeiro grelhado com risoto de hortelã fresco." },
-            { name: "Espaguete de Frutos do Mar", price: "R$ 98", img: "public/images/comida12.jpg", desc: "Massa fresca com camarões, lulas e mariscos ao vinho branco." }
+            { name: "Risoto de Cogumelos", price: "R$ 78", img: "/images/comida1.webp", desc: "Arroz arbóreo, mix de cogumelos e azeite de trufas." },
+            { name: "Salmão Grelhado", price: "R$ 92", img: "/images/comida2.jpg", desc: "Filé de salmão com crosta de ervas e purê de mandioquinha." },
+            { name: "Filé Mignon ao Malbec", price: "R$ 115", img: "/images/comida3.webp", desc: "Redução de vinho Malbec e risoto de parmesão." },
+            { name: "Nhoque de Abóbora", price: "R$ 65", img: "/images/comida5.jpg", desc: "Massa artesanal com manteiga de sálvia e nozes." },
+            { name: "Cordeiro com Ervas", price: "R$ 128", img: "/images/comida11.jpg", desc: "Carré de cordeiro grelhado com risoto de hortelã fresco." },
+            { name: "Espaguete de Frutos do Mar", price: "R$ 98", img: "/images/comida12.jpg", desc: "Massa fresca com camarões, lulas e mariscos ao vinho branco." }
         ],
         Sobremesas: [
-            { name: "Petit Gâteau", price: "R$ 35", img: "public/images/sobremesa1.jpg", desc: "Chocolate belga com sorvete de baunilha artesanal." },
-            { name: "Tiramisú", price: "R$ 40", img: "public/images/sobremesa2.jpg", desc: "Clássico italiano com café espresso, mascarpone e cacau." },
-            { name: "Cheesecake de Frutas Vermelhas", price: "R$ 38", img: "public/images/sobremesa3.jpg", desc: "Base crocante com creme suave e calda artesanal de frutas." },
-            { name: "Mousse de Chocolate 70%", price: "R$ 32", img: "public/images/sobremesa4.jpg", desc: "Mousse aerada com nibs de cacau e flor de sal." },
-            { name: "Pudim de Pistache", price: "R$ 42", img: "public/images/sobremesa5.jpg", desc: "Pudim ultra cremoso de pistache siciliano com praliné." },
-            { name: "Tarte Tatin de Maçã", price: "R$ 36", img: "public/images/sobremesa6.jpg", desc: "Torta de maçã caramelizada servida morna com creme fraiche." }
+            { name: "Petit Gâteau", price: "R$ 35", img: "/images/sobremesa1.jpg", desc: "Chocolate belga com sorvete de baunilha artesanal." },
+            { name: "Tiramisú", price: "R$ 40", img: "/images/sobremesa2.jpg", desc: "Clássico italiano com café espresso, mascarpone e cacau." },
+            { name: "Cheesecake de Frutas Vermelhas", price: "R$ 38", img: "/images/sobremesa3.jpg", desc: "Base crocante com creme suave e calda artesanal de frutas." },
+            { name: "Mousse de Chocolate 70%", price: "R$ 32", img: "/images/sobremesa4.jpg", desc: "Mousse aerada com nibs de cacau e flor de sal." },
+            { name: "Pudim de Pistache", price: "R$ 42", img: "/images/sobremesa5.jpg", desc: "Pudim ultra cremoso de pistache siciliano com praliné." },
+            { name: "Tarte Tatin de Maçã", price: "R$ 36", img: "/images/sobremesa6.jpg", desc: "Torta de maçã caramelizada servida morna com creme fraiche." }
         ]
     };
 
