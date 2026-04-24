@@ -1,3 +1,4 @@
+import CustomCursor from './components/CustomCursor.jsx';
 import Navbar from './components/Navbar.jsx';
 import Service from './components/Service.jsx';
 import About from './components/About.jsx';
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <>
+      <CustomCursor />
       <Navbar />
       <Service />
       <About />

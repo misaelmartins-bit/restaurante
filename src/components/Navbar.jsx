@@ -31,7 +31,7 @@ const Navbar = () => {
     };
 
     return (
-        <div id='Home' className="container-fluid position-relative p-0 min-vh-100 d-flex flex-column">
+        <div id='Home' className="container-fluid position-relative p-0 min-vh-custom  d-flex flex-column">
 
             <motion.nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-3 sticky-top"
                 initial={{ opacity: 0, x: -50 }} // Começa invisível e 50px para a esquerda
@@ -39,19 +39,19 @@ const Navbar = () => {
                 transition={{ duration: 0.8, ease: "easeOut" }} // Velocidade e suavidade
             >
                 <a href="#" className="navbar-brand p-0">
-                    <h1 className="text-warning m-0"><i className="fa fa-utensils me-3"></i></h1>
+                    <h1 className="text-warning m-0" style={{ fontSize: "30px" }}><i className="fa fa-utensils me-3"></i></h1>
                 </a>
 
                 {/* Para Desktop */}
 
                 <div className="collapse  navbar-collapse" id="navbarCollapse">
-                    <div className="navbar-nav ms-auto py-0 pe-4">
+                    <div className="navbar-nav ms-auto py-0 pe-4" style={{ fontSize: "18px" }}>
                         {/* Exemplo de animação em cascata nos links */}
                         {["Home", "Serviços", "Sobre", "Menu", "Equipe", "Contatos"].map((item, index) => (
                             <motion.a
                                 key={item}
                                 href={`#${item}`}
-                                className="nav-item nav-link fs-5"
+                                className="nav-item nav-link"
                                 initial={{ opacity: 0, x: -20 }}
                                 animate={{ opacity: 1, x: 0 }}
                                 transition={{ delay: 0.1 * index }} // Cada um entra com um pequeno atraso
@@ -61,7 +61,7 @@ const Navbar = () => {
                         ))}
 
                     </div>
-                    <motion.a href="#Reservation" className="btn btn-warning py-2 px-4 fs-5"
+                    <motion.a href="#Reservation" className="btn btn-warning py-2 px-4" style={{ fontSize: "18px" }}
                         whileHover={{ scale: 1.02 }} // Bônus: aumenta um pouco ao passar o mouse
                         whileTap={{ scale: 0.9 }}   // Diminui ao clicar
                     >
